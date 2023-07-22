@@ -3,9 +3,9 @@ import React from 'react';
 
 const MoreBooks = ({ books }) => {
   return (
-    <div>
+    <div className='more'>
       <h2>More Books</h2>
-      <div>
+      <div className='more-books'>
         {books.map((book) => (
           <img key={book.id} src={book.volumeInfo.imageLinks.thumbnail} alt={book.volumeInfo.title} />
         ))}

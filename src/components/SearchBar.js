@@ -14,7 +14,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div>
-      <input type="text" value={query} onChange={handleInputChange} />
+      <input type="text" placeholder='Search For the book you want to read it now ' value={query} onChange={handleInputChange} />
       <button onClick={handleSearch}>Search</button>
     </div>
   );
